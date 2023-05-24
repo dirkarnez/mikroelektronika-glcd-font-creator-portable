@@ -17,8 +17,8 @@ jobs:
         shell: cmd
         run: |
           curl -L -O -J https://download.mikroe.com/setups/additional-software/glcd-font-creator/glcd-font-creator-v120.zip &&^
-            7z.exe x glcd-font-creator-v120.zip &&^
-            7z.exe x GLCD_Font_Creator.1.20.exe
+          7z.exe x glcd-font-creator-v120.zip &&^
+          7z.exe x GLCD_Font_Creator.1.20.exe
           
       - name: Archive Release
         uses: thedoctor0/zip-release@master
